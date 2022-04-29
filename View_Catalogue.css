@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 0px;
+    background-image:url(img/Login_Background.jpg);
+}
+
+h1 {
+    font-family: Arial;
+    font: 27;
+    font-style: italic;
+    text-align: center;
+}
+
+p {
+    font-family: Arial;
+    font: 10.5;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.grid-container {
+    border: 2px;
+    margin: 75px;
+    display: grid;
+    grid-template-columns: 315px 315px 315px 315px;
+    grid-template-rows: 400px 400px;
+    gap: 20px;
+}

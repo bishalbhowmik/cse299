@@ -1,0 +1,173 @@
+
+body{
+    background: url('img/banner4.jpg');
+    background-size: cover;
+    margin: 0;
+    padding:0;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+
+}
+
+ .navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #404240;
+    z-index: 9;
+
+}
+ .nav{
+     padding: 10px 10vw;
+     display: flex;
+     justify-content: space-between;
+
+ }
+ .logo{
+     height: 60px;
+
+ }
+ .navitems{
+     display: flex;
+     align-items: center;
+
+ }
+ .search{
+     width: 500px;
+     display: flex;
+ }
+ .searchbox{
+     width: 60%;
+     height: 40px;
+     padding: 10px;
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;
+     border: 1px solid #f4eeee;
+     text-transform: capitalize;
+     background: none;
+     color: #eadfdf;
+     outline: none;
+
+ }
+ .search-buton{
+     width: 20%;
+     height: 40px;
+     padding: 10px 20px;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     background: #2e5d83;
+     color: #fff;
+     text-transform: capitalize;
+     font-size: 15px;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+ }
+  .searchbox::placeholder{
+ color: rgb(228, 240, 241);
+  }
+ .container{
+     width: 100%;
+     display: flex;
+     padding: 10px 10vw;
+     justify-content: center;
+     list-style: none;
+     border-top: 1px solid #d1d1d1;
+
+ }
+ .link{
+     text-transform: capitalize;
+     padding: 0 10px;
+     margin: 0 5px;
+     text-decoration: none;
+     color: #fff;
+     opacity: 0.5;
+     transition: .5s;
+     display: inline-block;
+     
+
+
+ }
+ .link:hover{
+     opacity: 1;
+ }
+ 
+  .btn{
+   
+    height: 45px;
+    width: 90px;
+    padding: 8px 13px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #2e5d83;
+    color: #fff;
+    
+
+ }
+
+
+ .Description {
+    width: 90%;
+    height: 500px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+  }
+  
+  
+  .Description h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .Description p {
+    margin: 10px 0 40px;
+    font-size: 22px;
+    color: #fff;
+  }
+  .button-design {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .button-design:hover {
+    border: 1px solid #000000;
+    background: #000000;
+    transition: 1s;
+  }
+
+  
+  .header {
+    background-image: url('img/banner4.jpg');
+    
+    background-color: linear-gradien #04091e;
+    background-color: #04091e;
+    
+    
+    min-height: 100vh;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }

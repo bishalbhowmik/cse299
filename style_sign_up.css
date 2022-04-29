@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-position: center;
+   background-size: cover;
+   font-family: sans-serif;
+   margin-top: 40px;
+   background-image:url(img/LoginBackground.png);
+   
+}
+.sign_up{
+   width:800px;
+   background-color: rgb(0, 0, 0);
+   margin:auto;
+   color: #FFFFFF;
+   padding: 10px 0px 10px 0px;
+   text-align: center;
+   border-radius: 15px 15px 0px 0px;
+}
+.main{
+   background-color: rgba(14, 42, 53, 0.548);
+   width: 800px;
+   margin:auto;
+   border-radius: 0px 0px 15px 15px;
+
+}
+
+.form{
+   padding: 10px;
+}
+
+
+#name{
+   width: 100px;
+   height:100px;
+
+}
+
+.name{
+   margin-left: 25px;
+   width: 80px;
+   color: white;
+   font-size: 18px;
+   font-weight: 800;
+
+}
+/*
+.id{
+   position: relative;
+   left: 180px;
+   top: -22px;
+   line-height: 25px;
+   border-radius: 6px;
+   padding: 0 22px;
+   font-size: 16px;
+}
+*/
+
+.Firstname{
+   position: relative;
+   left: 180px;
+   top: -18px;
+   line-height: 30px;
+   border-radius: 10px;
+   padding: 0 22px;
+   font-size: 16px;
+}
+.Lastname{
+   position: relative;
+   left: 180px;
+   top: -18px;
+   line-height: 30px;
+   border-radius: 10px;
+   padding: 0 22px;
+   font-size: 16px;
+   
+}
+.firstlabel{
+   position: relative;
+   color: #ffffff;
+   text-transform: capitalize;
+   font-size: 16px;
+   left:182px;
+   top:-18px;
+}
+.lastlabel{
+   position: relative;
+   color: #ffffff;
+   text-transform: capitalize;
+   font-size: 16px;
+   left:55px;
+   top:-15px;
+}
+.email{
+   position: relative;
+   left: 180px;
+   top: -19px;
+   line-height: 30px;
+   border-radius: 10px;
+   padding: 0 22px;
+   font-size: 16px;
+
+}
+.number{
+   position: relative;
+   left: 180px;
+   top: -24px;
+   line-height: 30px;
+   border-radius: 10px;
+   padding: 0 22px;
+   font-size: 16px;
+
+}
+.birthdate{
+   position: relative;
+   left: 180px;
+   top: -32px;
+   line-height: 30px;
+   border-radius: 10px;
+   padding: 0 22px;
+   font-size: 16px;
+
+}
+.country{
+   position: relative;
+   left: 180px;
+   top: -32px;
+   line-height: 30px;
+   border-radius: 10px;
+   padding: 0 22px;
+   font-size: 16px;
+
+}
+.joindate{
+   position: relative;
+   left: 180px;
+   top: -28px;
+   line-height: 30px;
+   border-radius: 10px;
+   padding: 0 22px;
+   font-size: 16px;
+
+}
+
+.password{
+   position: relative;
+   left: 180px;
+   top: -28px;
+   line-height: 30px;
+   border-radius: 10px;
+   padding: 0 22px;
+   font-size: 16px;
+}
+.repassword{
+   position: relative;
+   left: 180px;
+   top: -28px;
+   line-height: 30px;
+   border-radius: 10px;
+   padding: 0 22px;
+   font-size: 16px;
+}
+button{
+   background-color:#3BAF9F;
+   display: block;
+   margin:20px 0px 00px 275px;
+   text-align:center;
+   border-radius: 12px;
+   border:2px solid #366473;
+   padding:12px 100px;
+   outline:none;
+   color:white;
+   cursor: pointer;
+   transition: 0.25px;
+   font-size: 25px;
+}
+button:hover{
+   background-color: #5390f5;
+}
